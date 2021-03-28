@@ -5,11 +5,15 @@
     border: 0px;
 }
 html{
-    font-size: 14px;
+    font-size: 13px;
+    font-family: Arial,sans-serif;
+
+    color: #000000DE;
+
 }
 
 .header{
-    font-size: 16px;
+    font-size: 13px;
     text-decoration: none;
     text-align: center;
     overflow: hidden;
@@ -23,6 +27,13 @@ li{
     display: inline-block;
     margin:5px;
 }
+a{
+    text-decoration: none;
+    color: #000000DE;
+}
+a:hover{
+    text-decoration: underline;
+}
 .left{
     float: left;
 
@@ -30,4 +41,23 @@ li{
 .right{
     float: right;
   
+}
+.flex-content{
+    background-color: burlywood;
+    display: flex;
+    height: 100%px;  
+    flex-direction: column;
+}
+.flex-content > div{
+    background-color: brown;
+    height: 300px;
+    margin: 20px;
+}
+.footer{
+    bottom: 0px;
+    background-color: aqua;
+    height: 100px;
+}
+.buttons{
+    background-color:aqua;
 }
